@@ -1,0 +1,47 @@
+<html>
+    <head>
+       <title>Uniselfie</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script> 
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <a href="" id="link" download="Unimagifoto.png"></a>
+        <h1>Uniselfie  
+        <img id="logo_img" src="fondo3.avif">
+        </h1>
+        <hr>
+        <h4 style="color:rgb(204, 102, 251);">Haz clic en permitir cuando aparezca la ventana emergente, después de dar una orden de voz.</h4>
+        
+        <div class="form-group">
+        <h3>Di "Unicornio selfie"</h3>
+        <label>Tu salida de voz: </label>
+        <textarea class="form-control" id="textbox" readonly="true"></textarea>
+        </div>
+
+        <button id="botuni"  class="btn btn-primary" onclick="start()">Toma la foto</button>
+        <p>Haz clic en el botón unicornio</p>
+
+        <label>Tu cámara: </label>
+        <div id="camera"></div>
+        
+        <br>
+
+        <label>Tu uniselfie aparecerá aquí: </label>
+        <div id="result" ></div>
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+body{
+   
+    background-image: url(fondo.jpg);
+font-family: font-weight bold ;
+}
+#botuni
+{
+    width: 40%;
+    background-color: rgb(230, 88, 209);
+   border-color: rgb(135, 0, 246);
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid rgb(249, 115, 236);
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+    border-color: rgb(246, 89, 173);
+}
+#textbox
+{
+    width: 300px;
+    border-color: rgb(255, 0, 242);
+    background-color: rgb(247, 188, 238);
+}
+
+
